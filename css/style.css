@@ -5,12 +5,33 @@
 
 }
 
+img{
+    width: 100%;
+}
+
 .container{
     width: 80%;
-    margin: auto;
+    margin: auto;    
+}
 
+.slider{
+    display: flex;
+    align-items: center;
+}
 
+.slider .image{
+padding: 5%;
+}
 
-    height: 500px;
-    background-color: tomato;
+.slider .arrow{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.slider .image img{
+    display: none;    
+}
+
+.slider .image img.active{
+    display: block;    
 }
